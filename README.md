@@ -1,4 +1,3 @@
-
 <h3 align="center">EcoTrack</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
@@ -28,42 +27,33 @@ Through our web platform, we seek to increase individuals' awareness of their en
 
 
 ## Installation Guide 
+## Getting Started
 
-1. ### Clone this repository
-```bash
-git clone 
-```
-2. ### Go into the repository
-```bash
-cd EcoTrack
-```
-3. ### Install packages
-Navigate to the frontend and backend directory
-```bash
-npm install
-```
-4. ### Create a .env file
-Naviate to the backend folder of the project and add the following:
-  ```bash
-  OPENAI_API_KEY=your-api-key-goes-here
-  OPENAI_BASE_URL=https://api.naga.ac/v1
-  PORT=3000
-  ```
+### Open Using Daytona
 
-5. ### Run the server
-Navigate to the backend directory.
-```bash
-npm start
-```
-6. ### Run the Frontend
-Navigate to the frontend directory
-```bash
-npm run dev
-```
-7. ### Visit the Page
-```bash
-Open your browser and navigate to http://localhost:5173.
-```
+1. **Install Daytona**: Follow the [Daytona installation guide](https://www.daytona.io/docs/installation/installation/).
+2. **Create the Workspace**:
+   ```bash
+   daytona create https://github.com/contribsamar/EcoTrack
+   ```
+3. **Create your own .env file under the backend directory**:
+     ```bash
+       OPENAI_API_KEY=your-api-key-goes-here
+       OPENAI_BASE_URL=https://api.naga.ac/v1
+       PORT=3000
+     ```
+4. **Start the Application**:
+  
+    Go to backend Folder
+   ```bash
+   npm start
+   ```
+    Go to frontend Folder
+    ```bash
+    npm run dev
+    ```
+
+
 
 ## Configuration
 - Obtain your OpenAI API key: Visit [OpenAI](https://openai.com/product) to get your API key. You can get it from ```NagaAI``` discord server too.
