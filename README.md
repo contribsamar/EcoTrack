@@ -9,7 +9,7 @@
 </p>
 
 
-## Description
+## Sample Javascript with React and Nodejs
 Welcome to the EcoTrack, a LLM powered web app that calculates the carbon footprint of a family and gives advisory to reduce the carbon footprint.
 EcoTrack harnesses the formidable capabilities of OpenAI's Language Model (LLM) via the OpenAI API to empower individuals to make informed decisions for a greener future.
 
@@ -20,14 +20,55 @@ Through our web platform, we seek to increase individuals' awareness of their en
 
 ## Table of Contents
 
-- [Features](#features)
-- [Technologies](#technologies)
 - [Installation Guide](#installation-guide)
 - [Configuration](#configuration)
-- [Usage](#usage)
-- [Credits](#credits)
+- [Features](#features)
+- [Technologies](#technologies)
 - [License](#license)
 
+
+## Installation Guide 
+
+1. ### Clone this repository
+```bash
+git clone 
+```
+2. ### Go into the repository
+```bash
+cd EcoTrack
+```
+3. ### Install packages
+Navigate to the frontend and backend directory
+```bash
+npm install
+```
+4. ### Create a .env file
+Naviate to the backend folder of the project and add the following:
+  ```bash
+  OPENAI_API_KEY=your-api-key-goes-here
+  OPENAI_BASE_URL=https://api.naga.ac/v1
+  PORT=3000
+  ```
+
+5. ### Run the server
+Navigate to the backend directory.
+```bash
+npm start
+```
+6. ### Run the Frontend
+Navigate to the frontend directory
+```bash
+npm run dev
+```
+7. ### Visit the Page
+```bash
+Open your browser and navigate to http://localhost:5173.
+```
+
+## Configuration
+- Obtain your OpenAI API key: Visit [OpenAI](https://openai.com/product) to get your API key. You can get it from ```NagaAI``` discord server too.
+
+For the ```OPENAI_BASE_URL``` section, you need to specify the base URL for the API you're using. For example, if you're using the OpenAI API, enter ```https://api.openai.com/v1```. If you're using the OpenAI API from Naga, enter ```https://api.naga.ac/v1```. Ensure that the correct base URL is provided based on the API provider you're working with.
 
 ## Features
 - Clean and easy to navigate User Interface.
@@ -45,46 +86,4 @@ This project is built using the following technologies:
 - Tailwind CSS: Utility-first CSS framework for styling.
 - Express: Backend framework for handling server-side logic.
 - Langchain: Language model used for providing carbon footprint reduction advice.
-
-## Installation Guide 
-
-### Clone this repository
-```bash
-git clone 
-```
-### Go into the repository
-```bash
-cd EcoTrack
-```
-### Install packages
-Navigate to the frontend and backend directory
-```bash
-npm install
-```
-
-### Run the server
-Navigate to the backend directory.
-```bash
-npm start
-```
-### Run the Frontend
-Navigate to the frontend directory
-```bash
-npm run dev
-```
-### Visit the Page
-```bash
-Open your browser and navigate to http://localhost:5173.
-```
-
-## Configuration
-- Obtain your OpenAI API key: Visit [OpenAI](https://openai.com/product) to get your API key. You can get it from ```NagaAI``` discord server too.
-
-- Create a .env file in the backend folder of the project and add the following:
-  ```bash
-  OPENAI_API_KEY=your-api-key-goes-here
-  OPENAI_BASE_URL=https://api.naga.ac/v1
-  PORT=3000
-  ```
-For the ```OPENAI_BASE_URL``` section, you need to specify the base URL for the API you're using. For example, if you're using the OpenAI API, enter ```https://api.openai.com/v1```. If you're using the OpenAI API from Naga, enter ```https://api.naga.ac/v1```. Ensure that the correct base URL is provided based on the API provider you're working with.
 
