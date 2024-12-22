@@ -1,6 +1,6 @@
 <h3 align="center">EcoTrack</h3>
 <p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
   <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
@@ -26,7 +26,7 @@ Through our web platform, we seek to increase individuals' awareness of their en
 - [License](#license)
 
 
-## Installation Guide 
+## Installation Guide
 ## Getting Started
 
 ### Open Using Daytona
@@ -39,11 +39,11 @@ Through our web platform, we seek to increase individuals' awareness of their en
 3. **Create your own .env file under the backend directory**:
      ```bash
        OPENAI_API_KEY=your-api-key-goes-here
-       OPENAI_BASE_URL=https://api.naga.ac/v1
+       OPENAI_BASE_URL=your-api-url-goes-here
        PORT=3000
      ```
 4. **Start the Application**:
-  
+
     Go to backend Folder
    ```bash
    npm start
@@ -76,4 +76,3 @@ This project is built using the following technologies:
 - Tailwind CSS: Utility-first CSS framework for styling.
 - Express: Backend framework for handling server-side logic.
 - Langchain: Language model used for providing carbon footprint reduction advice.
-
